@@ -15,3 +15,13 @@ git reflog
 git reset --hard 18edc
 # 检查文件
 git checkout -- yijiu.txt
+# 创建SSH_KEY
+ssh -keygen -t rsa -C "1107527011@qq.com"
+# 将sshkey设置到github上后，验证密钥
+ssh -T git@github.com
+# 关联远程仓库
+git remote add origin git@github.com:canhemuxue/yijiu.git
+# 从远程仓库更行到本地仓库
+git pull origin master
+# 上传到远程仓库
+git push origin master
