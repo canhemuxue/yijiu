@@ -40,3 +40,5 @@ git merge erjiu
 git push --set-upstream origin erjiu
 # 获取指定分支
 git pull origin -b yijiu
+# 查看分支合并图
+git log --graph
