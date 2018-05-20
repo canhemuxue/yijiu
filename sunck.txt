@@ -1,2 +1,9 @@
-yijiu is a nice man
-yes, you are right!
+git init
+git log --pretty=oneling
+git reset --hard 19edc
+git status
+git commit 
+git checkout -- sunck.txt
+git reflog
+git add sunck.txt
+git reset --hard 25ee3
