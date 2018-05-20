@@ -34,7 +34,7 @@ git branch yijiu
 git checkout yijiu
 # 创建并切换分支
 git checkout -b erjiu
-# 合并分支
+# 合并到指定分支
 git merge erjiu
 # 提交到分支上
 git push --set-upstream origin erjiu
