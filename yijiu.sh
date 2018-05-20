@@ -8,7 +8,7 @@ git add yijiu.txt
 # 提交到本地版本库
 git commit yijiu.txt -m "命令注释"
 # 查看版本修改日志
-git log --pretty=oneling
+git log --pretty=oneline
 # 查看操作记录
 git reflog
 # 回退到指定版本
@@ -28,3 +28,9 @@ git pull origin master --allow-unrelated-histories
 git push origin master
 # 从远程服务器上获取版本库
 git clone git@github.com:apache/kylin.git
+# 创建分支
+git branch yijiu
+# 切换分支
+git checkout yijiu
+# 创建并切换分支
+git checkout -b erjiu
