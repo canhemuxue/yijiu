@@ -21,8 +21,10 @@ ssh -keygen -t rsa -C "1107527011@qq.com"
 ssh -T git@github.com
 # 关联远程仓库
 git remote add origin git@github.com:canhemuxue/yijiu.git
-# 从远程仓库更行到本地仓库
+# 从远程仓库更新到本地仓库
 git pull origin master
 git pull origin master --allow-unrelated-histories
 # 上传到远程仓库
 git push origin master
+# 从远程服务器上获取版本库
+git clone git@github.com:apache/kylin.git
