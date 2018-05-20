@@ -1,9 +1,17 @@
+git global
+# 创建 版本库
 git init
-git log --pretty=oneling
-git reset --hard 19edc
+# 查看本地版本库状态
 git status
-git commit 
-git checkout -- sunck.txt
+# 添加文件到版本库 
+git add yijiu.txt 
+# 提交到本地版本库
+git commit yijiu.txt -m "命令注释"
+# 查看版本修改日志
+git log --pretty=oneling
+# 查看操作记录
 git reflog
-git add sunck.txt
-git reset --hard 25ee3
+# 回退到指定版本
+git reset --hard 18edc
+# 检查文件
+git checkout -- yijiu.txt
