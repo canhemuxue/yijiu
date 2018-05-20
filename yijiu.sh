@@ -23,5 +23,6 @@ ssh -T git@github.com
 git remote add origin git@github.com:canhemuxue/yijiu.git
 # 从远程仓库更行到本地仓库
 git pull origin master
+git pull origin master --allow-unrelated-histories
 # 上传到远程仓库
 git push origin master
