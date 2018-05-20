@@ -42,3 +42,7 @@ git push --set-upstream origin erjiu
 git pull origin -b yijiu
 # 查看分支合并图
 git log --graph
+# 查看标签列表
+git tag
+# 删除标签
+git tag -e show
